@@ -1,0 +1,30 @@
+.icon{
+    margin: 0px 70px;
+}
+
+.logo {
+  color: brown;
+  float: left;
+  font-size: 30px;
+}
+
+.nav-bar{
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-menu{
+    width: 450px;
+}
+
+.menu-items{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+li {
+    list-style: none;
+
+}
