@@ -13,11 +13,11 @@ class NavBar extends Component {
                 </div>
                 <div className="nav-menu">
                     <ul className="menu-items">
-                        <li>HOME</li>
-                        <li>ABOUT</li>
-                        <li>SERVICES</li>
-                        <li>DESIGN</li>
-                        <li>CONTACT</li>
+                        <li><a href="#">HOME</a></li>
+                        <li><a href="#">ABOUT</a></li>
+                        <li><a href="#">SERVICES</a></li>
+                        <li><a href="#">DESIGN</a></li>
+                        <li><a href="#">CONTACT</a></li>
                     </ul>
                 </div>
             </div>

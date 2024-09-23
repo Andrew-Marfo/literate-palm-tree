@@ -17,7 +17,6 @@
 }
 
 .nav-bar {
-  margin-top: 5px;
   display: flex;
   align-items: center;
 }
@@ -29,8 +28,23 @@
 .menu-items {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 li {
   list-style: none;
+  font-weight: bold;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  padding-left: 50px;
+}
+
+.menu-items li a {
+  text-decoration: none;
+  color: white;
+  transition: 0.4 ease-in-out;
+}
+
+.menu-items li a:hover {
+  color: #ff7200;
 }
