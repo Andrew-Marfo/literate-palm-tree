@@ -7,7 +7,7 @@ class Body extends Component {
     render() {
         return (
             <div className="content">
-                <h1>Web Design & <br />Development <br />Course</h1>
+                <h1>Web Design & <br /> <span>Development</span> <br />Course</h1>
                 <p className="par">
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem consequatur doloribus odit sed, <br />
                     recusandae et vero beatae quas quisquam quae amet molestias eligendi <br />

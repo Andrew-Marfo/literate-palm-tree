@@ -40,3 +40,9 @@
 .cn:hover {
   background-color: white;
 }
+
+.content span {
+  color: #ff7200;
+  font-size: 60px;
+}
+
