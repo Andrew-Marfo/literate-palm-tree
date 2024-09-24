@@ -10,6 +10,8 @@
   top: 180px;
   right: 80px;
   border-radius: 10px;
+  display: flex;
+  flex-direction: column;
   align-items: center;
   padding: 25px;
 }
@@ -19,7 +21,7 @@
   text-align: center;
   background-color: white;
   font-size: 22px;
-  width: 180px;
+  width: 200px;
   margin: 2px;
   padding: 8px;
   border: none;
@@ -36,7 +38,7 @@
   color: white;
   margin-top: 20px;
   padding-bottom: 10px;
-  width: 180px;
+  width: 200px;
 }
 
 .form input:focus {
@@ -50,7 +52,7 @@
 
 .login-btn {
   margin-top: 15px;
-  width: 180px;
+  width: 200px;
   padding: 10px;
   border: none;
   border-radius: 8px;
@@ -69,4 +71,10 @@
 
 .login-btn:hover {
   background-color: white;
+}
+
+.link{
+    margin-top: 10px;
+    color: white;
+    text-align: center;
 }
