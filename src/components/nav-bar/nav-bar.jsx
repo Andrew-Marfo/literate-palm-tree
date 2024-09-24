@@ -20,6 +20,14 @@ class NavBar extends Component {
                         <li><a href="#">CONTACT</a></li>
                     </ul>
                 </div>
+                <div className="search">
+                    <input
+                        type="search"
+                        className="search-field"
+                        placeholder="Hello world"
+                    />
+                    <button className="ctn">Search</button>
+                </div>
             </div>
         )
     }

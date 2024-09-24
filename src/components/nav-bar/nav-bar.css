@@ -1,7 +1,12 @@
 .app {
   width: 100%;
   height: 100vh;
-  background-image: url("./background.jpg");
+  background: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.5) 50%,
+      rgba(0, 0, 0, 0.5) 50%
+    ),
+    url(./background.jpg);
   background-position: center;
   background-size: cover;
 }
@@ -18,7 +23,9 @@
 
 .nav-bar {
   display: flex;
+  width: 1200px;
   align-items: center;
+  padding-top: 10px;
 }
 
 .nav-menu {
@@ -47,4 +54,30 @@ li {
 
 .menu-items li a:hover {
   color: #ff7200;
+}
+
+.search {
+  display: flex;
+  margin-left: 250px;
+  border-radius: 5px;
+  border: 1px solid #ff7200;
+  color: white;
+}
+
+.search-field {
+  padding: 10px;
+  background-color: transparent;
+  border: none;
+  color: white;
+}
+
+.ctn {
+  padding: 10px;
+  background-color: #ff7200;
+  border: 1px solid #ff7200;
+  color: white;
+}
+
+.search-field:focus {
+  outline: none;
 }
