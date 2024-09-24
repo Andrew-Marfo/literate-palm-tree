@@ -19,4 +19,24 @@
   line-height: 30px;
 }
 
+.content .cn {
+  width: 170px;
+  height: 45px;
+  background-color: #ff7200;
+  border-radius: 10px;
+  border: 1px;
+  transition: 0.4s ease;
+  cursor: pointer;
+}
 
+.content .cn a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.3s ease;
+}
+
+.cn:hover {
+  background-color: white;
+}
