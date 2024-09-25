@@ -20,7 +20,7 @@
   color: #ff7200;
   text-align: center;
   background-color: white;
-  font-size: 22px;
+  font-size: 20px;
   width: 200px;
   margin: 2px;
   padding: 8px;
@@ -73,8 +73,22 @@
   background-color: white;
 }
 
-.link{
-    margin-top: 10px;
-    color: white;
-    text-align: center;
+.link {
+  margin-top: 10px;
+  color: white;
+  text-align: center;
+  font-family: sans-serif;
+  line-height: 25px;
+}
+
+.link a {
+  text-decoration: none;
+  color: #ff7200;
+  font-weight: bold;
+}
+
+.liw {
+  margin-top: 15px;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
 }
